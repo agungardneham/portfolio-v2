@@ -7,12 +7,108 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Raleway&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
-    <h1>Hello world</h1>
+  <body class="bg-primary px-5" style="box-sizing: border-box">
+    <!--Header-->
+    <header>
+      <div class="flex items-center py-5 shrink-0">
+        <a href="landing.html">
+          <h1
+            class="font-pacifico text-secondary text-[1.5rem] not-italic font-normal leading-normal"
+          >
+            <span class="text-tertiary">My</span>Portfolio
+          </h1>
+        </a>
+      </div>
+    </header>
+
+    <!--Profile Details-->
+    <main>
+      <!--Profile Card-->
+      <div class="flex shrink-0 filter drop-shadow-0-0-1-rgba-0">
+        <div
+          class="container flex flex-col justify-center items-center shrink-0 w-full px-5 py-5 bg-tertiary rounded-[1.25rem] shadow-custom"
+        >
+          <!--Profile Picture-->
+          <div
+            class="bg-local bg-no-repeat bg-cover w-[12.5rem] h-[12.5rem] mx-auto rounded-[1.25rem] my-3 bg-secondary shrink-0 shadow-custom2"
+            style="background-image: url('./resources/profile_picture.png')"
+          ></div>
+          <!--Name-->
+          <div class="inline-flex justify-center items-center">
+            <h1
+              class="font-raleway text-[1.77625rem] text-[#0b0909] not-italic font-bold leading-[2.22031rem]"
+            >
+              Agung Mahendra
+            </h1>
+          </div>
+          <!--Career Details-->
+          <div class="mx-auto">
+            <h2
+              class="font-raleway text-[1rem] not-italic font-medium leading-[2.5rem] text-[#0b090980]"
+            >
+              FullStack Developer
+            </h2>
+          </div>
+
+          <!--SNS-->
+          <div class="mx-auto flex flex-row gap-[0.51681rem] mb-[1.4rem]">
+            <a href="facebook.com">
+              <div
+                class="flex justify-center items-center py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem]"
+              >
+                <img
+                  src="resources/fb_logo.svg"
+                  alt="fb_logo"
+                  class="w-[0.65113rem] h-[1.24031rem]"
+                />
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/agung-mahendra/">
+              <div
+                class="flex items-start py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem]"
+              >
+                <img
+                  src="resources/linkedin_logo.svg"
+                  alt="linkedin_logo"
+                  class="w-[0.985rem] h-[0.93025rem]"
+                />
+              </div>
+            </a>
+            <a href="twitter.com">
+              <div
+                class="py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem]"
+              >
+                <img
+                  src="resources/twitter_logo.svg"
+                  alt="twitter_logo"
+                  class="w-[1.05344rem] h-[0.8565rem]"
+                />
+              </div>
+            </a>
+            <a href="https://github.com/agungardneham">
+              <div
+                class="py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem]"
+              >
+                <img
+                  src="resources/github_logo.svg"
+                  alt="github_logo"
+                  class="w-[0.8565rem] h-[1.00806rem]"
+                />
+              </div>
+            </a>
+          </div>
+
+          <!--Contact Card-->
+          <div
+            class="w-11/12 h-32 bg-[#F2F5F9] rounded-[1.25rem] shrink-0"
+          ></div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

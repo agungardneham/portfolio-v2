@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,11 +12,19 @@
     />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="bg-primary px-5" style="box-sizing: border-box">
+  <body
+    class="bg-primary px-5 shadow-custom3 xl:w-[90rem] xl:h-[64rem] xl:px-[6.25rem] xl:pt-[1.12rem] xl:pb-[3.12rem]"
+    style="box-sizing: border-box"
+  >
     <!--Header-->
     <header>
-      <div class="flex items-center py-5 shrink-0">
-        <a href="landing.html">
+      <div
+        class="flex items-center py-5 shrink-0 xl:w-[77.5rem] xl:h-[6.5rem] xl:py-[2.75rem] xl:px-0 xl:justify-between"
+      >
+        <a
+          href="landing.html"
+          class="xl:py-[1.25rem] xl:px-0 items-center xl:gap-[0.625rem]"
+        >
           <h1
             class="font-pacifico text-secondary text-[1.5rem] not-italic font-normal leading-normal"
           >
@@ -26,265 +34,291 @@
       </div>
     </header>
 
-    <!--Profile Details-->
-    <main>
-      <!--Profile Card-->
-      <div class="flex shrink-0 filter drop-shadow-0-0-1-rgba-0">
+    <div
+      class="xl:grid xl:grid-cols-[25rem 52.5rem] xl:grid-rows-[8.87rem 44.39rem]"
+    >
+      <!--Profile Details-->
+      <main
+        class="xl:col-start-1 xl:row-start-1 xl:col-end-2 xl:row-end-3 xl:w-[25rem] xl:h-[53.25rem]"
+      >
+        <!--Profile Card-->
         <div
-          class="container flex flex-col justify-center items-center shrink-0 w-full px-5 py-5 bg-[#FFF] rounded-[1.25rem] shadow-custom"
+          class="shrink-0 filter drop-shadow-0-0-1-rgba-0 xl:w-[25rem] xl:h-[53.25rem]"
         >
-          <!--Profile Picture-->
           <div
-            class="bg-local bg-no-repeat bg-cover w-[12.5rem] h-[12.5rem] mx-auto rounded-[1.25rem] my-3 bg-secondary shrink-0 shadow-custom2"
-            style="background-image: url('./resources/profile_picture.png')"
-          ></div>
-          <!--Name-->
-          <div class="inline-flex justify-center items-center">
-            <h1
-              class="font-raleway text-[1.77625rem] text-[#0b0909] not-italic font-bold leading-[2.22031rem]"
-            >
-              Agung Mahendra
-            </h1>
-          </div>
-          <!--Career Details-->
-          <div
-            class="flex justify-center items-center rounded-[0.3125rem] px-[0.3125ren] py-0"
+            class="flex flex-col justify-center items-center shrink-0 w-full px-5 py-5 bg-[#FFF] rounded-[1.25rem] shadow-custom xl:pt-[3.25rem] xl:pb-[4.12rem]"
           >
-            <h2
-              class="font-raleway text-[1rem] not-italic font-medium leading-[2.5rem] text-[#0b090980]"
+            <!--Profile Picture-->
+            <div
+              class="bg-local bg-no-repeat bg-cover w-[12.5rem] h-[12.5rem] mx-auto rounded-[1.25rem] my-3 shrink-0 shadow-custom2 bg-[#d3d3d380] xl:mb-[0.88rem] xl:mt-0"
+              style="background-image: url('./resources/profile_picture.png')"
+            ></div>
+            <!--Name-->
+            <div
+              class="inline-flex justify-center items-center xl:mb-[0.25rem]"
             >
-              <!--rgba(11, 9, 9, 0.50) === #0b090980-->
-              FullStack Developer
-            </h2>
-          </div>
-
-          <!--Social Media Icons-->
-          <!--Facebook-->
-          <div class="inline-flex items-start gap-[0.56844rem] mb-[1.4rem]">
-            <a href="facebook.com">
-              <div
-                class="flex justify-center items-center py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem] gap-[0.51681rem]"
+              <h1
+                class="font-raleway text-[1.77625rem] text-[#0b0909] not-italic font-bold leading-[2.22031rem]"
               >
-                <img
-                  src="resources/fb_logo.svg"
-                  alt="fb_logo"
-                  class="w-[0.65113rem] h-[1.24031rem]"
-                />
-              </div>
-            </a>
-            <!--LinkedIn-->
-            <a href="https://www.linkedin.com/in/agung-mahendra/">
-              <div
-                class="flex items-start py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem] gap-[0.51681rem]"
+                Agung Mahendra
+              </h1>
+            </div>
+            <!--Career Details-->
+            <div
+              class="flex justify-center items-center rounded-[0.3125rem] px-[0.3125rem] py-0 xl:mb-[0.38rem]"
+            >
+              <h2
+                class="font-raleway text-[1rem] not-italic font-medium leading-[2.5rem] text-[#0b090980]"
               >
-                <div
-                  class="flex w-[1.24031rem] py-[0.15506rem] px-[0.10338rem] flex-col items-start gap-[0.51681rem] rounded-[0.51681rem] bg-[#F2F7FC]"
-                >
-                  <img
-                    src="resources/linkedin_logo.svg"
-                    alt="linkedin_logo"
-                    class="w-[0.985rem] h-[0.93025rem]"
-                  />
-                </div>
-              </div>
-            </a>
-            <!--Twitter-->
-            <a href="twitter.com">
-              <div
-                class="flex items-start py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem] gap-[0.51681rem]"
-              >
-                <div
-                  class="flex py-[0.20669rem] px-[0.10338rem] flex-col items-start gap-[0.51681rem]"
-                >
-                  <img
-                    src="resources/twitter_logo.svg"
-                    alt="twitter_logo"
-                    class="w-[1.05344rem] h-[0.8565rem]"
-                  />
-                </div>
-              </div>
-            </a>
-            <!--Github-->
-            <a href="https://github.com/agungardneham">
-              <div
-                class="flex flex-col items-start gap-[0.51681rem] py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem]"
-              >
-                <div
-                  class="flex p-[0.10338rem] flex-col items-start gap-[0.51681rem]"
-                >
-                  <img
-                    src="resources/github_logo.svg"
-                    alt="github_logo"
-                    class="w-[0.8565rem] h-[1.00806rem]"
-                  />
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!--Contact Card-->
-          <div
-            class="w-11/12 h-auto bg-[#F2F5F9] rounded-[1.25rem] shrink-0 px-2 py-4"
-          >
-            <!--Phone Group-->
-            <div class="shrink-0 w-[16rem] h-[3.9375rem]">
-              <!--Phone-->
-              <div class="inline-flex items-center gap-[0.625rem]">
-                <!--Phone Img-->
-                <div
-                  class="flex p-[0.625rem] items-start gap-[0.3125rem] rounded-[0.5rem] bg-[#F2F7FC]"
-                >
-                  <div
-                    class="flex py-[0.125rem] px-[0.375rem] items-start gap-[0.625rem] rounded-[0.51681rem] bg-[#F2F7FC]"
-                  >
-                    <img
-                      src="resources/phone.svg"
-                      alt="phone"
-                      class="w-[0.75rem] h-[1.25rem]"
-                    />
-                  </div>
-                </div>
-                <!--Phone details-->
-                <div class="flex py-[0.3125rem] px-0 flex-col items-start">
-                  <div class="flex h-[0.9375rem] justify-center items-center">
-                    <h3
-                      class="text-[#1a100380] font-raleway text-[0.875rem] not-italic font-semibold leading-[0rem]"
-                    >
-                      Phone
-                    </h3>
-                  </div>
-                  <p
-                    class="text-[#000] font-raleway text-[0.875rem] not-italic font-semibold leading-[1.25rem]"
-                  >
-                    +62 859 1067 33311
-                  </p>
-                </div>
-              </div>
-              <!--Line 1-->
-              <div class="w-[16rem] h-[0.0625rem] bg-[#E3E3E3]"></div>
+                <!--rgba(11, 9, 9, 0.50) === #0b090980-->
+                FullStack Developer
+              </h2>
             </div>
 
-            <!--Email Group-->
-            <div class="w-[18.875rem] h-[3.9375rem] shrink-0">
-              <!--Email Container-->
-              <div class="inline-flex items-start gap-[0.75rem]">
-                <!--Email Img-->
+            <!--Social Media Icons-->
+            <!--Facebook-->
+            <div class="inline-flex items-start gap-[0.56844rem] mb-[1.4rem]">
+              <a href="facebook.com">
                 <div
-                  class="flex p-[0.625rem] flex-col items-start gap-[0.3125rem] rounded-[0.5rem] bg-[#F2F7FC]"
+                  class="flex justify-center items-center py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem] gap-[0.51681rem] hover:bg-[#BCC0C4]"
+                >
+                  <img
+                    src="resources/fb_logo.svg"
+                    alt="fb_logo"
+                    class="w-[0.65113rem] h-[1.24031rem]"
+                  />
+                </div>
+              </a>
+              <!--LinkedIn-->
+              <a href="https://www.linkedin.com/in/agung-mahendra/">
+                <div
+                  class="flex items-start py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem] gap-[0.51681rem] hover:bg-[#BCC0C4]"
                 >
                   <div
-                    class="flex py-[0.0625rem] px-[0.125rem] flex-col items-start gap-[0.625rem] rounded-[0.51681rem] bg-[#F2F7FC]"
+                    class="flex w-[1.24031rem] py-[0.15506rem] px-[0.10338rem] flex-col items-start gap-[0.51681rem] rounded-[0.51681rem]"
                   >
                     <img
-                      src="resources/mail.svg"
-                      alt="mail"
-                      class="w-[1.25rem] h-[1.21rem]"
+                      src="resources/linkedin_logo.svg"
+                      alt="linkedin_logo"
+                      class="w-[0.985rem] h-[0.93025rem]"
                     />
                   </div>
                 </div>
-                <!--Email Details-->
-                <div class="flex py-[0.3125rem] px-0 flex-col items-start">
-                  <!--Email Text-->
-                  <div class="flex h-[0.9375rem] justify-center items-center">
-                    <h3
-                      class="text-[#1a100380] font-raleway text-[0.875rem] not-italic font-semibold leading-[0rem]"
-                    >
-                      Email
-                    </h3>
-                  </div>
-                  <p
-                    class="text-[#000] font-raleway text-[0.8rem] not-italic font-semibold leading-[1.25rem]"
-                  >
-                    agungmahendra1322@gmail.com
-                  </p>
-                </div>
-              </div>
-              <!--Line 3-->
-              <div class="w-[16rem] h-[0.0625rem] bg-[#E3E3E3]"></div>
-            </div>
-
-            <!--Location-->
-            <div class="w-[16rem] h-[4.125rem] shrink-0">
-              <!--Location Container-->
-              <div class="inline-flex items-start gap-[0.625rem]">
-                <!--Location Icon-->
+              </a>
+              <!--Twitter-->
+              <a href="twitter.com">
                 <div
-                  class="flex p-[0.625rem] flex-col items-start gap-[0.3125rem] rounded-[0.5rem] bg-[#F2F7FC]"
+                  class="flex items-start py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem] gap-[0.51681rem] hover:bg-[#BCC0C4]"
                 >
                   <div
-                    class="flex py-[0.125rem] px-[0.3125rem] items-start gap-[0.625rem] rounded-[0.51681rem] bg-[#F2F7FC]"
+                    class="flex py-[0.20669rem] px-[0.10338rem] flex-col items-start gap-[0.51681rem]"
                   >
                     <img
-                      src="resources/loc_out.svg"
-                      alt="location_icon_outline"
-                      class="w-[0.84375rem] h-[1.21869rem]"
-                    />
-                    <img
-                      src="resources/loc_in.svg"
-                      alt="location_icon"
-                      class="w-[0.27538rem] h-[0.27538rem] absolute left-[0.59669rem] top-[0.41306rem]"
+                      src="resources/twitter_logo.svg"
+                      alt="twitter_logo"
+                      class="w-[1.05344rem] h-[0.8565rem]"
                     />
                   </div>
                 </div>
-                <!--Location Details-->
-                <div class="flex py-[0.3125rem] px-0 flex-col items-start">
-                  <div class="flex h-[0.9375rem] justify-center items-center">
-                    <h3
-                      class="text-[#1a100380] font-raleway text-[0.875rem] not-italic font-semibold leading-[0rem]"
-                    >
-                      Location
-                    </h3>
-                  </div>
-                  <p
-                    class="text-[#000] font-raleway text-[0.875rem] not-italic font-semibold leading-[1.25rem]"
+              </a>
+              <!--Github-->
+              <a href="https://github.com/agungardneham">
+                <div
+                  class="flex flex-col items-start gap-[0.51681rem] py-[1.29194rem] px-[1.55038rem] bg-[#F2F7FC] rounded-[0.51681rem] hover:bg-[#BCC0C4]"
+                >
+                  <div
+                    class="flex p-[0.10338rem] flex-col items-start gap-[0.51681rem]"
                   >
-                    Probolinggo, East Java
-                  </p>
+                    <img
+                      src="resources/github_logo.svg"
+                      alt="github_logo"
+                      class="w-[1.0335rem] h-[1.00806rem]"
+                    />
+                  </div>
                 </div>
-              </div>
-              <!--Line 4-->
-              <div class="w-[16rem] h-[0.0625rem] bg-[#E3E3E3]"></div>
+              </a>
             </div>
 
-            <!--Download Button-->
-            <div class="flex justify-center mb-5">
-              <button
-                href="resources/agung_cv_ats.pdf"
-                download
-                class="inline-flex py-[0.625rem] px-[1.25rem] justify-center items-center gap-[0.625rem] rounded-[1.25rem] bg-[#FF9C1B]"
+            <!--Contact Card-->
+            <div
+              class="w-full h-auto bg-[#F2F5F9] rounded-[1.25rem] shrink-0 px-5 py-4 xl:w-[21.875rem] xl:h-[21.875rem] xl:mx-[1.56rem] xl:py-[2.06rem] xl:px-0"
+            >
+              <!--Phone Group-->
+              <div
+                class="shrink-0 w-[16rem] h-[3.9375rem] xl:ml-[2.25rem] xl:mr-[3.62rem]"
               >
-                <!-- <img
-                  src="resources/download_symbol.svg"
-                  alt="download"
-                  class="w-[1.5rem] h-[1.5rem]"
-                /> -->
-                <p
-                  class="text-[#F2F7FC] font-raleway text-[0.75rem] not-italic font-semibold leading-[1.25rem]"
+                <!--Phone-->
+                <div
+                  class="inline-flex items-center gap-[0.625rem] xl:mb-[1.12rem]"
                 >
-                  Download Resume
-                </p>
-              </button>
+                  <!--Phone Img-->
+                  <div
+                    class="flex p-[0.625rem] items-start gap-[0.3125rem] rounded-[0.5rem] bg-[#F2F7FC]"
+                  >
+                    <div
+                      class="flex py-[0.125rem] px-[0.375rem] items-start gap-[0.625rem] rounded-[0.51681rem] bg-[#F2F7FC]"
+                    >
+                      <img
+                        src="resources/phone.svg"
+                        alt="phone"
+                        class="w-[0.75rem] h-[1.25rem]"
+                      />
+                    </div>
+                  </div>
+                  <!--Phone details-->
+                  <div class="flex py-[0.3125rem] px-0 flex-col items-start">
+                    <div class="flex h-[0.9375rem] justify-center items-center">
+                      <h3
+                        class="text-[#1a100380] font-raleway text-[0.875rem] not-italic font-semibold leading-[0rem]"
+                      >
+                        Phone
+                      </h3>
+                    </div>
+                    <p
+                      class="text-[#000] font-raleway text-[0.875rem] not-italic font-semibold leading-[1.25rem]"
+                    >
+                      +62 859 1067 33311
+                    </p>
+                  </div>
+                </div>
+                <!--Line 1-->
+                <div class="w-[16rem] h-[0.0625rem] bg-[#E3E3E3]"></div>
+              </div>
+
+              <!--Email Group-->
+              <div
+                class="w-[18.875rem] h-[3.9375rem] shrink-0 xl:ml-[2.06rem] xl:mr-[0.94rem] xl:mt-[1rem]"
+              >
+                <!--Email Container-->
+                <div
+                  class="inline-flex items-start gap-[0.75rem] xl:mb-[1.12rem]"
+                >
+                  <!--Email Img-->
+                  <div
+                    class="flex p-[0.625rem] flex-col items-start gap-[0.3125rem] rounded-[0.5rem] bg-[#F2F7FC]"
+                  >
+                    <div
+                      class="flex py-[0.0625rem] px-[0.125rem] flex-col items-start gap-[0.625rem] rounded-[0.51681rem] bg-[#F2F7FC]"
+                    >
+                      <img
+                        src="resources/mail.svg"
+                        alt="mail"
+                        class="w-[1.25rem] h-[1.21rem]"
+                      />
+                    </div>
+                  </div>
+                  <!--Email Details-->
+                  <div class="flex py-[0.3125rem] px-0 flex-col items-start">
+                    <!--Email Text-->
+                    <div class="flex h-[0.9375rem] justify-center items-center">
+                      <h3
+                        class="text-[#1a100380] font-raleway text-[0.875rem] not-italic font-semibold leading-[0rem]"
+                      >
+                        Email
+                      </h3>
+                    </div>
+                    <p
+                      class="text-[#000] font-raleway text-[0.8rem] not-italic font-semibold leading-[1.25rem] xl:text-[0.875rem]"
+                    >
+                      agungmahendra1322@gmail.com
+                    </p>
+                  </div>
+                </div>
+                <!--Line 3-->
+                <div class="w-[16rem] h-[0.0625rem] bg-[#E3E3E3]"></div>
+              </div>
+
+              <!--Location-->
+              <div
+                class="w-[16rem] h-[4.125rem] shrink-0 xl:mt-[1rem] xl:ml-[2.12rem] xl:mr-[3.75rem]"
+              >
+                <!--Location Container-->
+                <div
+                  class="inline-flex items-start gap-[0.625rem] xl:mb-[1.31rem]"
+                >
+                  <!--Location Icon-->
+                  <div
+                    class="flex p-[0.625rem] flex-col items-start gap-[0.3125rem] rounded-[0.5rem] bg-[#F2F7FC]"
+                  >
+                    <div
+                      class="flex py-[0.125rem] px-[0.3125rem] items-start gap-[0.625rem] rounded-[0.51681rem] bg-[#F2F7FC]"
+                    >
+                      <img
+                        src="resources/loc_out.svg"
+                        alt="location_icon_outline"
+                        class="w-[0.84375rem] h-[1.21869rem]"
+                      />
+                      <div
+                        class="relative right-[1.16rem] top-[0.4rem] xl:top-[0.3rem]"
+                      >
+                        <img
+                          src="resources/loc_in.svg"
+                          alt="location_icon"
+                          class="w-[0.27538rem] h-[0.27538rem]"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <!--Location Details-->
+                  <div class="flex py-[0.3125rem] px-0 flex-col items-start">
+                    <div class="flex h-[0.9375rem] justify-center items-center">
+                      <h3
+                        class="text-[#1a100380] font-raleway text-[0.875rem] not-italic font-semibold leading-[0rem]"
+                      >
+                        Location
+                      </h3>
+                    </div>
+                    <p
+                      class="text-[#000] font-raleway text-[0.875rem] not-italic font-semibold leading-[1.25rem]"
+                    >
+                      Probolinggo, East Java
+                    </p>
+                  </div>
+                </div>
+                <!--Line 4-->
+                <div class="w-[16rem] h-[0.0625rem] bg-[#E3E3E3]"></div>
+              </div>
+
+              <!--Download Button-->
+              <div class="flex justify-center mb-5 xl:mb-0 xl:mt-[1rem]">
+                <a href="resources/agung_cv_ats.pdf" download>
+                  <button
+                    class="inline-flex py-[0.625rem] px-[1.25rem] justify-center items-center gap-[0.625rem] rounded-[1.25rem] bg-[#FF9C1B] hover:bg-[#C47916]"
+                  >
+                    <img
+                      src="resources/download_symbol.svg"
+                      alt="download"
+                      class="w-[1.5rem] h-[1.5rem]"
+                    />
+                    <p
+                      class="text-[#F2F7FC] font-raleway text-[0.75rem] not-italic font-semibold leading-[1.25rem]"
+                    >
+                      Download Resume
+                    </p>
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
 
-    <!--Navbar-->
-    <nav
-      class="flex w-full h-[6.25rem] px-[12.5%] my-5 rounded-[1.25rem] bg-[#F2F7FC] shadow-custom2 sticky top-5"
-    >
-      <div
-        class="flex w-full flex-col justify-center items-center gap-[0.625rem] bg-[#F2F7FC]"
+      <!--Navbar-->
+      <nav
+        class="flex w-full h-[6.25rem] flex-col justify-center items-center gap-[0.625rem] my-5 bg-[#F2F7FC] rounded-[1.25rem] shadow-custom2 sticky top-5 xl:static xl:w-[23.4375rem] xl:p-0 xl:m-0 xl:col-start-2 xl:row-start-1 xl:col-end-3 xl:row-end-2 xl:mt-[2.62rem] xl:ml-[17.19rem]"
+        id="resume"
       >
+        <div
+          class="w-full h-[6.25rem] bg-[#F2F7FC] shadow-custom2 rounded-[1.25rem] xl:w-[31.4375rem]"
+        ></div>
         <!--Nav Cards-->
-        <!--Position harus diadjust right & top-->
         <div class="flex justify-center items-center gap-[2.5rem] absolute">
           <!--Home Card-->
-          <a href="#">
+          <a href="./index.html#home">
             <div class="flex items-start gap-[0.625rem]">
-              <div class="w-[5rem] h-[5rem] rounded-[1.25rem] bg-[#E1E8EF]">
-                <!--adjust position absolute right top-->
+              <div
+                class="w-[5rem] h-[5rem] rounded-[1.25rem] bg-[#E1E8EF] hover:bg-[#B9BEC4]"
+              >
                 <div
                   class="flex flex-col justify-center items-center relative top-[20%]"
                 >
@@ -304,10 +338,11 @@
           </a>
 
           <!--Resume Card-->
-          <a href="#">
+          <a href="#resume">
             <div class="flex items-start gap-[0.625rem]">
-              <div class="w-[5rem] h-[5rem] rounded-[1.25rem] bg-[#FF9C1B]">
-                <!--adjust position absolute right top-->
+              <div
+                class="w-[5rem] h-[5rem] rounded-[1.25rem] bg-[#FF9C1B] hover:bg-[#C47916]"
+              >
                 <div
                   class="flex flex-col justify-center items-center relative top-[20%] gap-[0.1875rem]"
                 >
@@ -327,10 +362,11 @@
           </a>
 
           <!--Contact Card-->
-          <a href="#">
+          <a href="./contact.html#contact">
             <div class="flex items-start gap-[0.625rem]">
-              <div class="w-[5rem] h-[5rem] rounded-[1.25rem] bg-[#E1E8EF]">
-                <!--adjust position absolute right top-->
+              <div
+                class="w-[5rem] h-[5rem] rounded-[1.25rem] bg-[#E1E8EF] hover:bg-[#B9BEC4]"
+              >
                 <div
                   class="flex flex-col items-center relative top-[20%] gap-[0.1875rem]"
                 >
@@ -349,376 +385,376 @@
             </div>
           </a>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <!--Resume Section-->
-    <div class="flex w-full h-auto my-5 shrink-0">
-      <div
-        class="w-full shrink-0 rounded-[1.25rem] bg-[#FFF] shadow-custom p-5"
-      >
-        <!--Resume Heading-->
-        <div class="inline-flex items-center flex-col gap-[0.1rem]">
-          <div class="flex w-full p-[0.625rem] items-start">
-            <h1
-              class="text-[#0B0909] font-poppins text-[2.5rem] not-italic font-medium leading-[2.5rem] tracking-[0.0625rem]"
-            >
-              Resume
-            </h1>
-          </div>
-          <div class="w-[15.75rem] h-[0.125rem]">
-            <img src="resources/line.svg" alt="line" />
-          </div>
-        </div>
-
-        <!--Education/Experience Details-->
-        <div class="shrink-0 w-full h-auto my-3">
-          <div class="flex flex-col w-full items-start gap-5 shrink-0">
-            <!--Education-->
-            <div class="w-full flex flex-col items-start gap-5">
-              <div class="flex items-center gap-[0.57788rem]">
-                <img
-                  src="resources/edu_icon.svg"
-                  alt="education icon"
-                  class="w-[1.73356rem] h-[1.73356rem]"
-                />
-                <h2
-                  class="text-[#000] font-poppins text-[1.73356rem] not-italic font-medium leading-[2.88931rem] tracking-[0.04331rem]"
-                >
-                  Education
-                </h2>
-              </div>
-
-              <!--Harisenin-->
-              <div
-                class="w-full flex flex-col items-start gap-[0.5rem] shrink-0"
+      <!--Resume Section-->
+      <div class="flex w-full h-auto my-5 shrink-0">
+        <div
+          class="w-full shrink-0 rounded-[1.25rem] bg-[#FFF] shadow-custom p-5"
+        >
+          <!--Resume Heading-->
+          <div class="inline-flex items-center flex-col gap-[0.1rem]">
+            <div class="flex w-full p-[0.625rem] items-start">
+              <h1
+                class="text-[#0B0909] font-poppins text-[2.5rem] not-italic font-medium leading-[2.5rem] tracking-[0.0625rem]"
               >
-                <div
-                  class="w-full h-auto shrink-0 rounded-[0.57788rem] bg-[#FFE3BF]"
-                >
-                  <!--adjust position absolute top-->
-                  <div
-                    class="flex p-[0.57788rem] flex-col items-start gap-[0.57788rem]"
-                  >
-                    <p
-                      class="text-[#1a100380] font-raleway text-[0.86681rem] not-italic font-normal leading-normal-line"
-                    >
-                      2023
-                    </p>
-                    <p
-                      class="text-[#000] font-raleway text-[0.86681rem] not-italic font-semibold leading-normal-line"
-                    >
-                      FullStack Web Development
-                    </p>
-                    <p
-                      class="text-[#000] font-raleway text-[0.86681rem] not-italic font-medium leading-normal-line"
-                    >
-                      Harisenin.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!--ITB-->
-              <div
-                class="w-full flex flex-col items-start gap-[0.5rem] shrink-0"
-              >
-                <div
-                  class="w-full h-auto shrink-0 rounded-[0.57788rem] bg-[#FFEED9]"
-                >
-                  <!--adjust position absolute top-->
-                  <div
-                    class="flex p-[0.57788rem] flex-col items-start gap-[0.57788rem]"
-                  >
-                    <p
-                      class="text-[#1a100380] font-raleway text-[0.86681rem] not-italic font-normal leading-normal-line"
-                    >
-                      2018-2022
-                    </p>
-                    <p
-                      class="text-[#000] font-raleway text-[0.86681rem] not-italic font-semibold leading-normal-line"
-                    >
-                      Metallurgical Engineering
-                    </p>
-                    <p
-                      class="text-[#000] font-raleway text-[0.86681rem] not-italic font-medium leading-normal-line"
-                    >
-                      Bandung Institute of Technology (ITB)
-                    </p>
-                  </div>
-                </div>
-              </div>
+                Resume
+              </h1>
             </div>
-            <!--Experience-->
-            <div class="w-full flex flex-col first-letter:items-start gap-5">
-              <div class="flex items-center gap-[0.57788rem]">
-                <img
-                  src="resources/briefcase.svg"
-                  alt="briefcase icon"
-                  class="w-[1.73356rem] h-[1.73356rem]"
-                />
-                <h2
-                  class="text-[#000] font-poppins text-[1.73356rem] not-italic font-medium leading-[2.88931rem] tracking-[0.04331rem]"
-                >
-                  Experience
-                </h2>
-              </div>
-
-              <!--Metalfest-->
-              <div
-                class="w-full flex flex-col items-start gap-[0.5rem] shrink-0"
-              >
-                <div
-                  class="w-full h-auto shrink-0 rounded-[0.57788rem] bg-[#FFE3BF]"
-                >
-                  <!--adjust position absolute top-->
-                  <div
-                    class="flex p-[0.57788rem] flex-col items-start gap-[0.57788rem]"
-                  >
-                    <p
-                      class="text-[#1a100380] font-raleway text-[0.86681rem] not-italic font-normal leading-normal-line"
-                    >
-                      2021-2022
-                    </p>
-                    <p
-                      class="text-[#000] font-raleway text-[0.86681rem] not-italic font-semibold leading-normal-line"
-                    >
-                      Head of IT Department (Front-End)
-                    </p>
-                    <p
-                      class="text-[#000] font-raleway text-[0.86681rem] not-italic font-medium leading-normal-line"
-                    >
-                      metalfestitb.com
-                    </p>
-                    <p
-                      class="text-[#000] font-raleway text-[0.86681rem] not-italic font-medium leading-normal-line"
-                    >
-                      Metallurgy festival 2022 (Metalfest 2022) by Association
-                      of Metallurgical Engineering Students of Bandung Institute
-                      of Technology
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="w-[15.75rem] h-[0.125rem]">
+              <img src="resources/line.svg" alt="line" />
             </div>
           </div>
-        </div>
 
-        <!--Skills Section-->
-        <div class="inline-flex w-full items-start my-5">
-          <div class="flex flex-col rounded-custom bg-[#F8FBFB]">
-            <!--Work Skills-->
-            <!--position absolute left-->
-            <div class="flex flex-col items-start gap-[0.5rem]">
-              <div class="flex w-full items-start">
+          <!--Education/Experience Details-->
+          <div class="shrink-0 w-full h-auto my-3">
+            <div class="flex flex-col w-full items-start gap-5 shrink-0">
+              <!--Education-->
+              <div class="w-full flex flex-col items-start gap-5">
                 <div class="flex items-center gap-[0.57788rem]">
+                  <img
+                    src="resources/edu_icon.svg"
+                    alt="education icon"
+                    class="w-[1.73356rem] h-[1.73356rem]"
+                  />
                   <h2
                     class="text-[#000] font-poppins text-[1.73356rem] not-italic font-medium leading-[2.88931rem] tracking-[0.04331rem]"
                   >
-                    Work skills
+                    Education
                   </h2>
+                </div>
+
+                <!--Harisenin-->
+                <div
+                  class="w-full flex flex-col items-start gap-[0.5rem] shrink-0"
+                >
+                  <div
+                    class="w-full h-auto shrink-0 rounded-[0.57788rem] bg-[#FFE3BF]"
+                  >
+                    <!--adjust position absolute top-->
+                    <div
+                      class="flex p-[0.57788rem] flex-col items-start gap-[0.57788rem]"
+                    >
+                      <p
+                        class="text-[#1a100380] font-raleway text-[0.86681rem] not-italic font-normal leading-normal-line"
+                      >
+                        2023
+                      </p>
+                      <p
+                        class="text-[#000] font-raleway text-[0.86681rem] not-italic font-semibold leading-normal-line"
+                      >
+                        FullStack Web Development
+                      </p>
+                      <p
+                        class="text-[#000] font-raleway text-[0.86681rem] not-italic font-medium leading-normal-line"
+                      >
+                        Harisenin.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!--ITB-->
+                <div
+                  class="w-full flex flex-col items-start gap-[0.5rem] shrink-0"
+                >
+                  <div
+                    class="w-full h-auto shrink-0 rounded-[0.57788rem] bg-[#FFEED9]"
+                  >
+                    <!--adjust position absolute top-->
+                    <div
+                      class="flex p-[0.57788rem] flex-col items-start gap-[0.57788rem]"
+                    >
+                      <p
+                        class="text-[#1a100380] font-raleway text-[0.86681rem] not-italic font-normal leading-normal-line"
+                      >
+                        2018-2022
+                      </p>
+                      <p
+                        class="text-[#000] font-raleway text-[0.86681rem] not-italic font-semibold leading-normal-line"
+                      >
+                        Metallurgical Engineering
+                      </p>
+                      <p
+                        class="text-[#000] font-raleway text-[0.86681rem] not-italic font-medium leading-normal-line"
+                      >
+                        Bandung Institute of Technology (ITB)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Experience-->
+              <div class="w-full flex flex-col first-letter:items-start gap-5">
+                <div class="flex items-center gap-[0.57788rem]">
+                  <img
+                    src="resources/briefcase.svg"
+                    alt="briefcase icon"
+                    class="w-[1.73356rem] h-[1.73356rem]"
+                  />
+                  <h2
+                    class="text-[#000] font-poppins text-[1.73356rem] not-italic font-medium leading-[2.88931rem] tracking-[0.04331rem]"
+                  >
+                    Experience
+                  </h2>
+                </div>
+
+                <!--Metalfest-->
+                <div
+                  class="w-full flex flex-col items-start gap-[0.5rem] shrink-0"
+                >
+                  <div
+                    class="w-full h-auto shrink-0 rounded-[0.57788rem] bg-[#FFE3BF]"
+                  >
+                    <!--adjust position absolute top-->
+                    <div
+                      class="flex p-[0.57788rem] flex-col items-start gap-[0.57788rem]"
+                    >
+                      <p
+                        class="text-[#1a100380] font-raleway text-[0.86681rem] not-italic font-normal leading-normal-line"
+                      >
+                        2021-2022
+                      </p>
+                      <p
+                        class="text-[#000] font-raleway text-[0.86681rem] not-italic font-semibold leading-normal-line"
+                      >
+                        Head of IT Department (Front-End)
+                      </p>
+                      <p
+                        class="text-[#000] font-raleway text-[0.86681rem] not-italic font-medium leading-normal-line"
+                      >
+                        metalfestitb.com
+                      </p>
+                      <p
+                        class="text-[#000] font-raleway text-[0.86681rem] not-italic font-medium leading-normal-line"
+                      >
+                        Metallurgy festival 2022 (Metalfest 2022) by Association
+                        of Metallurgical Engineering Students of Bandung
+                        Institute of Technology
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Skills Section-->
+          <div class="inline-flex w-full items-start my-5">
+            <div class="flex flex-col rounded-custom bg-[#F8FBFB]">
+              <!--Work Skills-->
+              <!--position absolute left-->
+              <div class="flex flex-col items-start gap-[0.5rem]">
+                <div class="flex w-full items-start">
+                  <div class="flex items-center gap-[0.57788rem]">
+                    <h2
+                      class="text-[#000] font-poppins text-[1.73356rem] not-italic font-medium leading-[2.88931rem] tracking-[0.04331rem]"
+                    >
+                      Work skills
+                    </h2>
+                  </div>
+                </div>
+
+                <!--Work Skill details-->
+                <div class="w-full">
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      ReactJS
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      HTML 5
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      CSS
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      TailwindCSS
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      Bootstrap
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      SCSS/SASS
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      JavaScript
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      JQuery
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      EJS
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      NodeJS
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      VCS (Git)
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      MySQL
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      MongoDB
+                    </p>
+                  </div>
+                  <div
+                    class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
+                  >
+                    <p
+                      class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
+                    >
+                      Web Security
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Soft Skills-->
+              <!--position absolute left-->
+              <div class="flex flex-col items-start gap-[0.5rem] mt-3">
+                <div class="flex w-full items-start">
+                  <div class="flex items-center gap-[0.57788rem]">
+                    <h2
+                      class="text-[#000] font-poppins text-[1.73356rem] not-italic font-medium leading-[2.88931rem] tracking-[0.04331rem]"
+                    >
+                      Soft skills
+                    </h2>
+                  </div>
                 </div>
               </div>
 
-              <!--Work Skill details-->
+              <!--Soft Skills Details-->
               <div class="w-full">
                 <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
+                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
                 >
                   <p
                     class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
                   >
-                    ReactJS
+                    Leadership
                   </p>
                 </div>
                 <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
+                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
                 >
                   <p
                     class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
                   >
-                    HTML 5
+                    Team Management
                   </p>
                 </div>
                 <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
+                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
                 >
                   <p
                     class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
                   >
-                    CSS
+                    Teamwork
                   </p>
                 </div>
                 <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
+                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
                 >
                   <p
                     class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
                   >
-                    TailwindCSS
+                    Time Management
                   </p>
                 </div>
                 <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
+                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
                 >
                   <p
                     class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
                   >
-                    Bootstrap
+                    Critical Thinking
                   </p>
                 </div>
                 <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
+                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3 hover:bg-[#B9BEC4]"
                 >
                   <p
                     class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
                   >
-                    SCSS/SASS
+                    Problem-Solving
                   </p>
                 </div>
-                <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-                >
-                  <p
-                    class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                  >
-                    JavaScript
-                  </p>
-                </div>
-                <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-                >
-                  <p
-                    class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                  >
-                    JQuery
-                  </p>
-                </div>
-                <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-                >
-                  <p
-                    class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                  >
-                    EJS
-                  </p>
-                </div>
-                <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-                >
-                  <p
-                    class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                  >
-                    NodeJS
-                  </p>
-                </div>
-                <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-                >
-                  <p
-                    class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                  >
-                    VCS (Git)
-                  </p>
-                </div>
-                <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-                >
-                  <p
-                    class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                  >
-                    MySQL
-                  </p>
-                </div>
-                <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-                >
-                  <p
-                    class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                  >
-                    MongoDB
-                  </p>
-                </div>
-                <div
-                  class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-                >
-                  <p
-                    class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                  >
-                    Web Security
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!--Soft Skills-->
-            <!--position absolute left-->
-            <div class="flex flex-col items-start gap-[0.5rem] mt-3">
-              <div class="flex w-full items-start">
-                <div class="flex items-center gap-[0.57788rem]">
-                  <h2
-                    class="text-[#000] font-poppins text-[1.73356rem] not-italic font-medium leading-[2.88931rem] tracking-[0.04331rem]"
-                  >
-                    Soft skills
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-            <!--Soft Skills Details-->
-            <div class="w-full">
-              <div
-                class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-              >
-                <p
-                  class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                >
-                  Leadership
-                </p>
-              </div>
-              <div
-                class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-              >
-                <p
-                  class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                >
-                  Team Management
-                </p>
-              </div>
-              <div
-                class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-              >
-                <p
-                  class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                >
-                  Teamwork
-                </p>
-              </div>
-              <div
-                class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-              >
-                <p
-                  class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                >
-                  Time Management
-                </p>
-              </div>
-              <div
-                class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-              >
-                <p
-                  class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                >
-                  Critical Thinking
-                </p>
-              </div>
-              <div
-                class="inline-flex py-[0.25rem] px-[0.5rem] justify-center items-center gap-[0.625rem] rounded-[0.5rem] bg-[#E1E8EF] mr-3 mb-3"
-              >
-                <p
-                  class="text-[#000] font-raleway text-[1rem] not-italic font-normal leading-[1.5rem] tracking-[0.015rem]"
-                >
-                  Problem-Solving
-                </p>
               </div>
             </div>
           </div>

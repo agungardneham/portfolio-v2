@@ -1,4 +1,5 @@
 # portfolio-v2-tailwindcss
+Pages: https://agungardneham.github.io/portfolio-v2/
 A web portfolio that I made in harisenin bootcamp. Mainly used tailwindcss in the styling and responsiveness.
 
 Website preview (large screen : laptop, desktop). <br>

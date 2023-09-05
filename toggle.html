@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Go up button -->
+    <div class="h-[100rem] bg-tertiary dark:bg-[#333]">
+      <div id="home">
+        <div class="flex justify-center pt-10">
+          <span class="mr-2 text-sm text-[#000]">light</span>
+          <input type="checkbox" name="toggle" id="toggle" class="hidden" />
+          <label for="toggle">
+            <div
+              class="flex h-5 w-9 cursor-pointer items-center rounded-[50rem] bg-[#000] p-1"
+            >
+              <div
+                class="toggle-circle h-4 w-4 rounded-[50rem] bg-[#fff] transition duration-300 ease-in-out"
+              ></div>
+            </div>
+          </label>
+          <span class="ml-2 text-sm text-[#000]">dark</span>
+        </div>
+      </div>
+    </div>
+    <a
+      href="#home"
+      class="fixed bottom-4 right-4 z-[999] hidden h-14 w-14 items-center justify-center rounded-[50rem] bg-secondary p-4 animate-bounce"
+      id="go-up"
+      ><span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span
+    ></a>
+  </body>
+  <script src="script.js"></script>
+</html>

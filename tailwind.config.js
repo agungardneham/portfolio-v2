@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./*.{html,js}"],
+  darkMode: "class",
   theme: {
     extend: {
       lineHeight: {
@@ -16,6 +17,12 @@ module.exports = {
       primary: "#F2F5F9",
       secondary: "#FF9C1A",
       tertiary: "#EC1B09",
+      secondaryDark: "#C97B14",
+      tertiaryDark: "#C91808",
+      bgDark: "#636363",
+      bgDark2: "#505050",
+      textDark: "#FFF",
+      textDark2: "#A0A0A0",
     },
     boxShadow: {
       custom: "0px 0px 0px 0px rgba(0, 0, 0, 0.25)",

@@ -125,7 +125,7 @@
     @apply flex w-full h-[6.25rem] z-40 flex-col justify-center items-center gap-[0.625rem] my-5 bg-[#F2F7FC] rounded-[1.25rem] shadow-custom2 sticky top-5 xl:static xl:w-[23.4375rem] xl:p-0 xl:m-0 xl:col-start-2 xl:row-start-1 xl:col-end-3 xl:row-end-2 xl:mt-[2.62rem] xl:ml-[17.19rem] dark:bg-bgDark2 xl:z-10;
   }
   .navbar__container {
-    @apply w-full h-[6.25rem] bg-[#F2F7FC] shadow-custom2 rounded-[1.25rem] xl:w-[31.4375rem] dark:bg-bgDark;
+    @apply w-full h-[6.25rem] bg-[#F2F7FC] shadow-custom2 rounded-[1.25rem] dark:bg-bgDark;
   }
   .navcard {
     @apply flex justify-center items-center gap-[1.5rem] absolute;

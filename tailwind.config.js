@@ -8,9 +8,9 @@ export default {
         "normal-line": "normal",
       },
       colors: {
-        primary: "#F2F5F9",
-        secondary: "#FF9C1A",
-        tertiary: "#EC1B09",
+        first: "#F2F5F9",
+        second: "#FF9C1A",
+        third: "#EC1B09",
         secondaryDark: "#C97B14",
         tertiaryDark: "#C91808",
         bgDark: "#636363",

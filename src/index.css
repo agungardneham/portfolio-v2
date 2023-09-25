@@ -4,14 +4,14 @@
 
 @layer components {
   .body__container {
-    @apply bg-primary px-10 pb-5 dark:bg-bgDark2;
+    @apply bg-first px-10 pb-5 dark:bg-bgDark2;
     box-sizing: border-box;
   }
   .go-up__container {
-    @apply fixed bottom-4 right-4 z-[999] h-11 w-11 items-center justify-center rounded-[50rem] bg-secondary p-4 animate-bounce hover:bg-secondaryDark dark:bg-secondaryDark dark:hover:bg-secondary;
+    @apply fixed bottom-4 right-4 z-[999] h-11 w-11 items-center justify-center rounded-[50rem] bg-second p-4 animate-bounce hover:bg-secondaryDark dark:bg-secondaryDark dark:hover:bg-second;
   }
   .go-up__arrow {
-    @apply mt-2 block h-3 w-3 rotate-45 border-t-2 border-l-2 border-primary;
+    @apply mt-2 block h-3 w-3 rotate-45 border-t-2 border-l-2 border-first z-[999];
   }
 
   /* header */
@@ -25,19 +25,19 @@
     @apply xl:py-[1.25rem] xl:px-0 items-center xl:gap-[0.625rem];
   }
   .logo__text {
-    @apply font-pacifico text-secondary text-[1.5rem] not-italic font-normal leading-normal dark:text-secondaryDark;
+    @apply font-pacifico text-second text-[1.5rem] not-italic font-normal leading-normal dark:text-secondaryDark;
   }
   .logo__text2 {
-    @apply text-tertiary dark:text-tertiaryDark;
+    @apply text-third dark:text-tertiaryDark;
   }
   .dark-mode__container {
     @apply flex justify-center items-center;
   }
   .dark-mode__toggle {
-    @apply flex h-5 w-9 cursor-pointer items-center rounded-[50rem] bg-secondary p-1 dark:bg-secondaryDark;
+    @apply flex h-5 w-9 cursor-pointer items-center rounded-[50rem] bg-second p-1 dark:bg-secondaryDark;
   }
   .toggle-circle {
-    @apply h-4 w-4 rounded-[50rem] bg-primary transition duration-300 ease-in-out dark:bg-bgDark2;
+    @apply h-4 w-4 rounded-[50rem] bg-first transition duration-300 ease-in-out dark:bg-bgDark2;
   }
   #toggle:checked ~ label div.toggle-circle {
     @apply translate-x-3;
@@ -232,7 +232,7 @@
   /* pop up */
   .popup {
     transform: translate(-50%, -50%) scale(0);
-    @apply fixed p-5 overflow-y-auto w-[90%] h-[70%] top-[50%] left-[50%] rounded-[1.25rem] z-50 bg-primary text-black dark:bg-bgDark2 dark:text-textDark xl:h-[75%];
+    @apply fixed p-5 overflow-y-auto w-[90%] h-[70%] top-[50%] left-[50%] rounded-[1.25rem] z-50 bg-first text-black dark:bg-bgDark2 dark:text-textDark xl:h-[75%];
     animation: scaleIn 0.3s ease-in-out forwards;
   }
 
@@ -252,7 +252,7 @@
   }
   .popup__closebutton {
     border-radius: 50rem;
-    @apply fixed top-5 bg-secondary px-4 py-2 font-semibold text-primary hover:bg-secondaryDark;
+    @apply fixed top-5 bg-second px-4 py-2 font-semibold text-first hover:bg-secondaryDark text-xl z-[999];
   }
   .exp-popup {
     @apply w-full flex flex-col items-start gap-[0.5rem] shrink-0;

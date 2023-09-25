@@ -3,9 +3,9 @@ import WorkSkillType from "./WorkSkillType";
 
 const WorkSkillPopup = () => {
   return (
-    <div className="mx-3 my-5 xl:mx-7">
+    <div className="mx-3 my-3 xl:mx-7">
       <div>
-        <h1 className="font-raleway text-4xl">Work Skills</h1>
+        <h1 className="font-raleway text-4xl font-semibold">Work Skills</h1>
       </div>
       <WorkSkillType
         type={workSkillList.frontEnd}

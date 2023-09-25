@@ -14,6 +14,7 @@ const GoUpButton = () => {
       };
 
       window.addEventListener("scroll", handleScroll);
+      console.log("scrolled");
     }
   }, []);
 

@@ -1,27 +1,27 @@
-import { useState } from "react";
 import EduExpContainer from "../Elements/EduExp/Container";
 import EduExpCard from "../Elements/EduExp/EduExpCard";
-import Popup from "../Elements/Popup/Popup";
 import ExperiencePopup from "../Elements/Popup/ExperiencePopup";
 import EducationPopup from "../Elements/Popup/EducationPopup";
+import Popup from "reactjs-popup";
+import PopupTemplate from "../Elements/Popup/PopupTemplate";
 
 const EduExperience = () => {
-  const [isPopUpOpen, setIsPopUpOpen] = useState();
-  const [isPopUpOpen2, setIsPopUpOpen2] = useState();
+  // const [isPopUpOpen, setIsPopUpOpen] = useState();
+  // const [isPopUpOpen2, setIsPopUpOpen2] = useState();
 
-  const openPopup = () => {
-    setIsPopUpOpen(true);
-  };
-  const closePopup = () => {
-    setIsPopUpOpen(false);
-  };
+  // const openPopup = () => {
+  //   setIsPopUpOpen(true);
+  // };
+  // const closePopup = () => {
+  //   setIsPopUpOpen(false);
+  // };
 
-  const openPopup2 = () => {
-    setIsPopUpOpen2(true);
-  };
-  const closePopup2 = () => {
-    setIsPopUpOpen2(false);
-  };
+  // const openPopup2 = () => {
+  //   setIsPopUpOpen2(true);
+  // };
+  // const closePopup2 = () => {
+  //   setIsPopUpOpen2(false);
+  // };
   return (
     <div className="edu-exp mb-7">
       <div className="edu-exp__container">
@@ -39,15 +39,30 @@ const EduExperience = () => {
             subtitle="Bandung Institute of Technology"
           />
           <div className="z-50">
-            <a
+            <Popup
+              trigger={
+                <a className="font-raleway text-[#333] underline dark:text-first cursor-pointer hover:animate-pulse">
+                  See detailed education...
+                </a>
+              }
+              modal
+              nested
+            >
+              {(close) => (
+                <PopupTemplate onPopUpClose={close}>
+                  <EducationPopup />
+                </PopupTemplate>
+              )}
+            </Popup>
+            {/* <a
               className="text-black underline dark:text-primary cursor-pointer"
-              onClick={openPopup2}
+              onClick={openPopup}
             >
               See detailed education...
-            </a>
-            <Popup open={isPopUpOpen2} onPopUpClose={closePopup2}>
+            </a> */}
+            {/* <Popup open={isPopUpOpen} onPopUpClose={closePopup}>
               <EducationPopup />
-            </Popup>
+            </Popup> */}
           </div>
         </EduExpContainer>
         <EduExpContainer img="exp" title="Experience">
@@ -58,15 +73,30 @@ const EduExperience = () => {
             subtitle="metalfestitb.com"
           />
           <div>
-            <a
+            <Popup
+              trigger={
+                <a className="font-raleway text-[#333] underline dark:text-first cursor-pointer hover:animate-pulse">
+                  See other experiences...
+                </a>
+              }
+              modal
+              nested
+            >
+              {(close) => (
+                <PopupTemplate onPopUpClose={close}>
+                  <ExperiencePopup />
+                </PopupTemplate>
+              )}
+            </Popup>
+            {/* <a
               className="text-black underline dark:text-primary cursor-pointer"
-              onClick={openPopup}
+              onClick={openPopup2}
             >
               See other experiences...
-            </a>
-            <Popup open={isPopUpOpen} onPopUpClose={closePopup}>
+            </a> */}
+            {/* <Popup open={isPopUpOpen2} onPopUpClose={closePopup2}>
               <ExperiencePopup />
-            </Popup>
+            </Popup> */}
           </div>
         </EduExpContainer>
       </div>

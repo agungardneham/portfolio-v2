@@ -22,7 +22,7 @@ const NavItem = ({ href, type, img }) => {
 
             <p
               className={`${
-                type === "active" ? "text-primary" : "text-[#333]"
+                type === "active" ? "text-first" : "text-[#333]"
               } font-raleway text-[0.75rem] not-italic font-semibold leading-[1.25rem]`}
             >
               {img}

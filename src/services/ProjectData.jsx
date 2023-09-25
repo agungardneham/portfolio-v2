@@ -4,7 +4,7 @@ const projectData = [
     name: "Harisenin Final Project",
     time: "Aug 2023 - Dec 2023",
     link: "",
-    repo: "",
+    repo: "https://github.com/agungardneham/final-project-harisenin",
     shortDesc:
       "I lead this team project to graduate from Harisenin's Bootcamp. This project is about building the frontend and backend of a restaurant delivery website app.",
     task: [
@@ -43,7 +43,7 @@ const projectData = [
     name: "Portfolio Website Project (Version 2)",
     time: "Aug 2023 - Sep 2023",
     link: "/",
-    repo: "",
+    repo: "https://github.com/agungardneham/portfolio-v2",
     shortDesc:
       "Website project for my personal portfolio. Mainly uses ReactJS and Tailwind CSS.",
     task: [
@@ -103,7 +103,7 @@ const projectData = [
     name: "Portfolio Website Project",
     time: "May 2023 - Jun 2023",
     link: "https://agungardneham.github.io/portfolio/",
-    repo: "",
+    repo: "https://github.com/agungardneham/portfolio",
     shortDesc: "My first portfolio project that mainly uses bootstrap.",
     task: [
       "Designed the layout and style of the website",
@@ -123,7 +123,7 @@ const projectData = [
     name: "RevoU Software Engineering Mini Course Final Project",
     time: "Mar 2023",
     link: "https://agungardneham.github.io/portfolio/revou.html",
-    repo: "",
+    repo: "https://github.com/agungardneham/mini-coding-project-revou",
     shortDesc:
       "This is an introduction course to web development. In this course's final project, I must use vanilla HTML, CSS, and JS.",
     task: [

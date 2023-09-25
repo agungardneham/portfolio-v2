@@ -31,7 +31,7 @@ const ContactDetails = ({ type }) => {
         <>
           {showCopied && (
             <div
-              className="absolute top-[55%] left-[50%] font-raleway bg-secondary px-2 py-1 rounded-full text-textDark xl:top-[53%]"
+              className="absolute top-[55%] left-[50%] font-raleway bg-second dark:bg-secondaryDark px-2 py-1 rounded-full text-textDark xl:top-[53%]"
               id="copied"
             >
               Copied!
@@ -46,7 +46,7 @@ const ContactDetails = ({ type }) => {
         <>
           {showCopied && (
             <div
-              className="absolute top-[65%] left-[50%] font-raleway bg-secondary px-2 py-1 rounded-full text-textDark xl:top-[61%]"
+              className="absolute top-[65%] left-[50%] font-raleway bg-second dark:bg-secondaryDark px-2 py-1 rounded-full text-textDark xl:top-[61%]"
               id="copied"
             >
               Copied!

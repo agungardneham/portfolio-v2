@@ -15,6 +15,12 @@ const SocialMediaList = () => {
         alt="github_logo"
         classname="w-[1.0335rem] h-[1.00806rem]"
       />
+      <SocialMedia
+        link="https://wa.me/62859106733311/"
+        socialMediaLogo="whatsapp_logo"
+        alt="whatsapp_logo"
+        classname="w-[1.0335rem] h-[1.00806rem]"
+      />
     </div>
   );
 };

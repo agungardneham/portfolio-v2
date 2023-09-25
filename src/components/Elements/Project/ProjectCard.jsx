@@ -61,7 +61,7 @@ const ProjectCard = ({
           )}
         </Popup>
       </div>
-      <div className="flex flex-row pl-5 pb-5 gap-3 w-full xl:w-[15%] xl:gap-5 xl:p-0">
+      <div className="flex flex-row pl-5 pb-3 gap-3 w-full xl:w-[15%] xl:gap-5 xl:p-0">
         <Anchor href={link} classname={linkClass}>
           <Img src="/resources/link.svg" alt="link" classname="w-6 h-6" />
         </Anchor>

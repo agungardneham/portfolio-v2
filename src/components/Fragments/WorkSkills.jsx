@@ -1,7 +1,7 @@
 import SkillsTitle from "../Elements/Skills/title";
 import workSkillList from "../../services/WorkSkillList";
 import PopupTemplate from "../Elements/Popup/PopupTemplate";
-import WorkSkillPopup from "../Elements/Popup/workSkillPopup";
+import WorkSkillPopup from "../Elements/Popup/WorkSkillPopup";
 import Popup from "reactjs-popup";
 
 const WorkSkills = () => {
